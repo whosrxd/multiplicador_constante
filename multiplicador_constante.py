@@ -53,7 +53,7 @@ def multiplicador_constante(constante, semilla1, iteraciones):
     return resultados
 
 # Interfaz gráfica con Streamlit
-st.title("Generador Producto Medio")
+st.title("Generador Multiplicador Constante")
 
 # Crear columnas para organizar el diseño (entrada en la izquierda y resultados en la derecha)
 col1, espacio, col2 = st.columns([2, 0.5, 3])
